@@ -6,7 +6,7 @@ from app.models import Rule, Category, Website
 import google.generativeai as genai
 
 # Gemini AI Setup
-genai.configure(api_key="AIzaSyCYs-Ph0Dm5KY_irtq5qV7pqSuwkqQK5ao")
+genai.configure(api_key="-")
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 
